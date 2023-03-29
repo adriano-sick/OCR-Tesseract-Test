@@ -17,7 +17,8 @@ namespace OCR_Tesseract_Test.Utils
                     var text = page.GetText();
                     var accurracy = page.GetMeanConfidence();
 
-                    Console.WriteLine(text, accurracy);
+                    Console.WriteLine(text);
+                    Console.WriteLine(accurracy);
                     return text;
                 }
             }
